@@ -8,7 +8,7 @@ class jre {
 
   file { '/var/cache/debconf/jre6.seeds':
     ensure => present,
-    source => 'puppet:///jre/jre6.seeds',
+    source => 'puppet:///modules/jre/jre6.seeds',
   }
 
 }
